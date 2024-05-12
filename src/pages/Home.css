@@ -1,0 +1,225 @@
+.homepage{
+    min-height: 96vh;
+    width: 100%;
+    background-image: url('../image/background\ image.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 0px 10px;
+    height: 50px;
+    width: 600px;
+    
+}
+
+#search1{
+    width: 600px;
+    border: none;
+    font-size: 25px;
+    outline: none;
+}
+#search{
+    font-size: 25px;
+}
+
+
+/* trendsearchdiv */
+.trendSearchDiv{
+    width: 1025px;
+    height: 580px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 30px
+}
+.trendSearchDiv > p {
+    font-size: 21px;
+    margin-bottom:15px;
+    font-weight: 500px;
+} 
+
+.popular-suggestions{
+    margin: 0;
+}
+.productsdiv{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.singleProduct{
+    position: relative;
+    width:239px;
+    height: 320px;
+    border-radius: 2px;
+    margin: 10px 10px;
+}
+
+.singleProduct > img {
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+}
+.like{
+    position: absolute;
+    color: rgb(183, 23, 23);
+    font-size: 30px;
+    top: 20px;
+    left: 200px;
+}
+.disLike{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 20px;
+    left: 200px;
+}
+.singleProduct > p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+.hoverProduct{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    justify-content: center; 
+    background-color: #6D84FFB5;
+    top: 215px;
+    width: 100%;
+    height: 41px;
+    display: none;
+}
+.singleProduct:hover .hoverProduct{
+    display: block;
+    display: flex;
+ }
+
+
+
+ .searchPage {
+     display: flex;
+     flex-direction: column;
+     height: auto;
+     background-color: white;
+
+ }
+
+ .searchBar {
+     border: 1px solid black;
+     opacity: 0.69;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #ffffff;
+     border-radius: 20px;
+     padding: 0px 10px;
+     height: 50px;
+     width: 600px;
+     margin: 30px 60vh;
+ }
+
+ .searchMainDiv {
+     display: flex;
+     height: 90vh;
+     margin: 0px 30px;
+ }
+
+ .filterDiv {
+     width: 17%;
+ }
+
+ .filterDiv>p {
+     font-size: 30px;
+ }
+
+ .brandDiv {
+     border-bottom: 1px solid rgb(192, 187, 187);
+     padding: 10px 0px;
+ }
+
+ .titleDiv {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-right: 8vh;
+     font-size: 20px;
+ }
+
+ .secondRadiobtn {
+     margin-top: 10px;
+ }
+
+ .checkmark {
+     font-size: 16px;
+     font-weight: 300;
+ }
+
+ .ratingDiv {
+     display: flex;
+ }
+
+ .ratingSymbol {
+     display: flex;
+     gap: 7px;
+ }
+
+ .checked {
+     color: #FDD33D;
+ }
+
+ .unchecked {
+     color: #CDCCC8;
+ }
+
+
+ .productsDiv {
+     display: flex;
+     flex-wrap: wrap;
+     width: 80%;
+     margin: 1vh 8vh;
+     gap: 20px;
+ }
+
+ .priceDiv {
+     display: flex;
+     gap: 5px;
+ }
+
+ .priceDiv p {
+     margin: 4px 0px;
+ }
+
+ .actualPrice {
+     color: #00000066;
+ }
+
+ .discountPrice {
+     color: #6D84FF;
+ }
+
+ .productRating {
+     display: flex;
+     font-size: 13px;
+ }
