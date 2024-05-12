@@ -1,11 +1,5 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -18,10 +12,4 @@ You may also see any lint errors in the console.
 I have build this using React, css, Faker as mentioned, 
 I have created almost all functionality but except (according to the filter data should update), because i used faker, i think this feature should not work in this case, i have to fetch the data from same api to apply filters.
 
-
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deploy link: https://664059895f644a87ae002a08--creative-jelly-0d2b7a.netlify.app/
